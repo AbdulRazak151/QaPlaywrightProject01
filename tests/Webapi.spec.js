@@ -20,7 +20,7 @@ test.beforeAll('loginapi method' ,async()=>
 test (' Client App login', async ({ page }) => {
    //js file- Login js, DashboardPage
   // const email = "anshika@gmail.com";
-     //email
+     //email count 
   await page.addInitScript(value => {
     window.localStorage.setItem('token', value);
 }, response.token);
